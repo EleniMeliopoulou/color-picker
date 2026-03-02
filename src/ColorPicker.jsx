@@ -13,8 +13,8 @@ function ColorPicker() {
         <>
             <div className="container">
                 <h1><u>Color Picker:</u></h1>
+                <p className="chosen-color">Color: {color}</p>
                 <div className="color-body" style={{ backgroundColor: color }}>
-                    <p>Color: {color}</p>
                 </div>
                 <div className="footer">
                     <p>Select color:</p>
