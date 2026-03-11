@@ -3,7 +3,7 @@ import './ColorPicker.css'
 
 function ColorPicker() {
 
-    const [color, setColor] = useState("");
+    const [color, setColor] = useState("#ffffff");
 
     const handleColorChange = (e) => {
         setColor(e.target.value)
@@ -18,7 +18,7 @@ function ColorPicker() {
                 </div>
                 <div className="footer">
                     <p>Select color:</p>
-                    <input type="color" id="chosen-color" onChange={handleColorChange} />
+                    <input type="color" value={color} onChange={handleColorChange} />
                 </div>
             </div>
 
