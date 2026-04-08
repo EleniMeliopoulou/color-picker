@@ -5,7 +5,7 @@ This is a simple color picker built with React + Vite. The user can select any c
 ---
 
 ## Technologies Used
-* **Front-End:*
+* *Front-End:*
     * React with Vite 
     * CSS 
 
